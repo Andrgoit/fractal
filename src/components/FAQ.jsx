@@ -13,7 +13,7 @@ export default function FAQ() {
       <div className="cont">
         <h2 className="mb-5 text-center">Відповіді на часто задані питання</h2>
 
-        <Accordion>
+        <Accordion className="overflow-hidden rounded-lg shadow-md">
           <AccordionItem>
             <AccordionItemHeading>
               <AccordionItemButton>

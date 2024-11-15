@@ -5,14 +5,18 @@ import {
   PriceLabelsList,
   Footer,
   FAQ,
+  NewsList,
+  AllNewsList,
 } from "./components";
 
 function App() {
   return (
     <>
       <Header />
+      <NewsList />
       <PriceLabelsList />
       <FAQ />
+      <AllNewsList />
       <Footer />
     </>
   );
