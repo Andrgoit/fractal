@@ -1,11 +1,12 @@
 import "./index.css";
-import { Header, ButtonBlock } from "./components";
+import { Header, ButtonBlock, PriceLabelsList, Footer } from "./components";
 
 function App() {
   return (
     <>
       <Header />
-      <ButtonBlock />
+      <PriceLabelsList />
+      <Footer />
     </>
   );
 }
