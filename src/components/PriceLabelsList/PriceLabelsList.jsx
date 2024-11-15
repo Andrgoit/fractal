@@ -7,9 +7,11 @@ export default function PriceLabelsList() {
   ));
 
   return (
-    <section className="bg-gray-200 py-10">
+    <section className="py-10">
       <div className="cont">
-        <h2 className="text-center uppercase">Тарифи</h2>
+        <h2 className="bg-sky-700 text-center font-bold uppercase text-white">
+          Тарифи
+        </h2>
         <ul className="mt-5 flex flex-col gap-10 md:flex-row">{elements}</ul>
       </div>
     </section>

@@ -1,6 +1,9 @@
 import newsList from "src/data/newsList";
 import NewsItem from "./NewsItem";
 
+import { Accordion } from "react-accessible-accordion";
+import "react-accessible-accordion/dist/fancy-example.css";
+
 export default function NewsList() {
   const reverseNewsList = [...newsList].reverse();
 
@@ -9,12 +12,16 @@ export default function NewsList() {
   ));
 
   return (
-    <section className="bg-gray-200 py-10">
+    <section className="py-10">
       <a name="news"></a>
-      <div className="cont flex flex-col items-center gap-4">
+      <div className="cont flex flex-col gap-4">
         <div>
-          <h2 className="mb-5 text-center uppercase">новини</h2>
-          <ul className="flex flex-col gap-4">{elements}</ul>
+          <h2 className="mb-5 bg-sky-700 text-center font-bold uppercase text-white">
+            новини
+          </h2>
+          <Accordion className="overflow-hidden rounded-lg shadow-md">
+            {elements}
+          </Accordion>
         </div>
       </div>
     </section>

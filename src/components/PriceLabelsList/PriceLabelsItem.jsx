@@ -5,7 +5,7 @@ export default function PriceLabelsItem({ price }) {
       <div className="bg-red-500 py-2">
         <h2 className="flex flex-row justify-center gap-1 uppercase text-white">
           тарифний план
-          <span>"{name}"</span>
+          <span>«{name}»</span>
         </h2>
       </div>
       <div className="px-2 text-center">

@@ -6,6 +6,7 @@ import PriceLabelsList from "./PriceLabelsList/PriceLabelsList";
 import FAQ from "./FAQ";
 import NewsList from "./NewsList/NewsList";
 import AllNewsList from "src/components/AllNewsList/AllNewsList";
+import PriceList from "./PriceList/PriceList";
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   FAQ,
   NewsList,
   AllNewsList,
+  PriceList,
 };

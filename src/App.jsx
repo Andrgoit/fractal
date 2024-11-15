@@ -1,12 +1,12 @@
 import "./index.css";
 import {
   Header,
-  ButtonBlock,
   PriceLabelsList,
   Footer,
   FAQ,
   NewsList,
   AllNewsList,
+  PriceList,
 } from "./components";
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
       <Header />
       <NewsList />
       <PriceLabelsList />
+      <PriceList />
       <FAQ />
       <AllNewsList />
       <Footer />

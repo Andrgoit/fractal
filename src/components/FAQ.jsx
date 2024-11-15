@@ -11,7 +11,9 @@ export default function FAQ() {
   return (
     <section className="py-10">
       <div className="cont">
-        <h2 className="mb-5 text-center">Відповіді на часто задані питання</h2>
+        <h2 className="mb-5 bg-sky-700 text-center font-bold uppercase text-white">
+          Відповіді на часті запитання
+        </h2>
 
         <Accordion className="overflow-hidden rounded-lg shadow-md">
           <AccordionItem>
